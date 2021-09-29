@@ -1,0 +1,575 @@
+a.ctaButton:link,
+a.ctaButton:visited
+{
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 18.3%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 180%;
+    color:rgb(255, 255, 255);
+    background-color: rgb(109, 0, 0);
+}
+
+a.ctaButton:hover,
+a.ctaButton:active
+{
+    border-radius: 20px;
+    text-decoration: none;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 0.8%;
+    padding-bottom: 0.8%;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 180%;
+    color:rgb(255, 255, 255);
+    opacity: 0.7;
+}
+
+.logo
+{
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+
+nav.navigation
+{
+    position: sticky;
+    background-color: rgb(235, 210, 210);
+    padding-top: 1%;
+    padding-bottom: 1%;
+    top: 0;
+    z-index: 1;
+}
+
+.navigation ul
+{
+    list-style-type: none;
+    text-align: right;
+}
+
+.navigation ul li
+{
+    display: inline;
+}
+
+.navigation ul li a:hover, a.active 
+{
+    border-bottom: 2px solid rgb(109, 0, 0);
+}
+
+.navigation ul li a:link, a:visited
+{
+    text-decoration: none;
+}
+
+.navigation ul li a
+{
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 120%;
+    color: rgb(109, 0, 0);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 2%;
+}
+
+body 
+{    
+    background-color: rgb(235, 210, 210);
+}
+
+.homeface
+{
+    float: right;
+    margin-top: 10%;
+}
+
+.intro
+{
+    margin-top: 13%;
+    margin-left: 18%;
+    margin-bottom: 1%;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 300%;
+}
+
+.introText
+{
+    line-height: 2;
+    margin-left: 18.3%;
+    margin-bottom: 4%;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 120%;
+}
+
+.imagesTitle1
+{ 
+    margin-left: 5%;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    margin-top: 15%;
+    font-size: 150%;
+    margin-bottom: 2%;
+    color: rgb(109, 0, 0);
+}
+
+.workTitle
+{
+    text-align: center;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 120%;
+    margin-bottom: 2%;
+    color: rgb(109, 0, 0);
+}
+
+.imagesTitle2
+{ 
+    margin-left: 5%;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    margin-top: 10%;
+    font-size: 150%;
+    margin-bottom: 2%;
+    color: rgb(109, 0, 0);
+}
+
+.imagesRow
+{
+    margin-left: 4%;
+}
+
+.imagesColumn
+{
+    margin: 1%;
+    display: inline;
+}
+
+a.images:link,
+a.images:visited
+{
+    display: block;
+    margin-top: 2%;
+    padding: 0.5%;
+    text-align: center;
+    color: rgb(109, 0, 0);
+    font-family: Trebuchet MS, Tahoma, Arial;
+    text-decoration: none;
+}
+
+a.images:hover,
+a.images:active
+{    
+    text-align: center;
+    padding: 0.5%;
+    border-bottom: 1px solid rgb(109, 0, 0);
+    margin-left: 46.5%;
+    margin-right: 46.5%;
+}
+
+a.errorLinks:link,
+a.errorLinks:visited
+{
+    color: rgb(109, 0, 0);
+    font-family: Trebuchet MS, Tahoma, Arial;
+}
+
+a.errorLinks:hover,
+a.errorLinks:active
+{    
+    
+    opacity: 0.5;
+}
+
+.pics
+{
+    z-index: 1;
+    text-align: center;
+}
+
+.NiagaraText
+{
+    position:absolute;
+    top: 55%;
+    width: 45%;
+    text-align: center;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 120%;
+    line-height: 1.5;
+    margin-left: 27%;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    z-index: -1;
+}
+
+.FlowerText
+{
+    position:absolute;
+    top: 145%;
+    width: 45%;
+    text-align: center;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 120%;
+    line-height: 1.5;
+    margin-left: 27%;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    z-index: -1;
+}
+
+.OutsideText
+{
+    position:absolute;
+    top: 230%;
+    width: 35%;
+    text-align: center;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 120%;
+    line-height: 1.5;
+    margin-left: 32%;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    z-index: -1;
+}
+
+.orFlowerText
+{
+    position:absolute;
+    top: 330%;
+    width: 35%;
+    text-align: center;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 120%;
+    line-height: 1.5;
+    margin-left: 32%;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    z-index: -1;
+}
+
+.WatchText
+{
+    position:absolute;
+    top: 420%;
+    width: 35%;
+    text-align: center;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 120%;
+    line-height: 1.5;
+    margin-left: 32%;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    z-index: -1;
+}
+
+.yeFlowerText
+{
+    position:absolute;
+    top: 510%;
+    width: 35%;
+    text-align: center;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 120%;
+    line-height: 1.5;
+    margin-left: 32%;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    z-index: -1;
+}
+
+.SmileText
+{
+    position: absolute;
+    top: 605%;
+    width: 35%;
+    text-align: center;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 120%;
+    line-height: 1.5;
+    margin-left: 32%;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+    z-index: -1;
+}
+
+.pics img:hover
+{
+    filter: blur(8px);
+    opacity: 0.2;
+}
+
+.banner img
+{
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+.errorbanner img
+{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.errorMessage
+{
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 110%;
+    line-height: 2;
+    color: rgb(109, 0, 0);
+    left: 25%;
+    right: 25%;
+    position: absolute;
+    top: 58%;
+}
+
+.aboutPic img
+{
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.aboutText
+{
+    background-color: rgb(238, 232, 232);
+    padding: 5%;
+    color: rgb(109, 0, 0);
+    font-family: Trebuchet MS, Tahoma, Arial;
+    margin-left: 50%;
+    margin-right: 10%;
+    line-height: 2;
+}
+
+.merchPic img
+{
+    float: left;
+    margin-left: 10%;
+}
+
+.merchText
+{
+    background-color: rgb(238, 232, 232);
+    padding: 5%;
+    color: rgb(109, 0, 0);
+    font-family: Trebuchet MS, Tahoma, Arial;
+    margin-top: 3%;
+    margin-left: 55%;
+    margin-right: 10%;
+    line-height: 2;
+}
+
+.patternPic img
+{
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.patternText
+{
+    background-color: rgb(238, 232, 232);
+    padding: 5%;
+    color: rgb(109, 0, 0);
+    font-family: Trebuchet MS, Tahoma, Arial;
+    margin-top: 13%;
+    margin-left: 14%;
+    margin-right: 50%;
+    line-height: 2;
+}
+
+.dripPic img
+{
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.dripText
+{
+    background-color: rgb(238, 232, 232);
+    padding: 5%;
+    color: rgb(109, 0, 0);
+    font-family: Trebuchet MS, Tahoma, Arial;
+    margin-top: 17%;
+    margin-left: 55%;
+    margin-right: 10%;
+    line-height: 2;
+}
+
+.searchPic img
+{
+    float: right;
+    margin-right: 15%;
+    margin-top: 8%;
+}
+
+.searchText
+{
+    background-color: rgb(238, 232, 232);
+    padding: 5%;
+    color: rgb(109, 0, 0);
+    font-family: Trebuchet MS, Tahoma, Arial;
+    margin-top: 18%;
+    margin-left: 14%;
+    margin-right: 50%;
+    line-height: 2;
+}
+
+.summerPic img
+{
+    float: left;
+    margin-left: 15%;
+    margin-top: 20%;
+}
+
+.summerText
+{
+    background-color: rgb(238, 232, 232);
+    padding: 5%;
+    color: rgb(109, 0, 0);
+    font-family: Trebuchet MS, Tahoma, Arial;
+    margin-top: 25%;
+    margin-left: 53%;
+    margin-right: 15%;
+    margin-bottom: 15%;
+    line-height: 2;
+}
+
+.contactrow
+{
+    margin-left: 14%;
+}
+
+.email,
+.insta,
+.twitter
+{
+    display: inline-block;
+    padding: 8%;
+    width: 12%;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    line-height: 2;
+    text-align: center;
+    color: rgb(109, 0, 0);
+}
+
+.phone
+{
+    display: inline-block;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 8.6%;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    line-height: 2;
+    text-align: center;
+    color: rgb(109, 0, 0);
+}
+
+.linkedin,
+.facebook
+{
+    display: inline-block;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 7%;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    line-height: 2;
+    text-align: center;
+    color: rgb(109, 0, 0);
+}
+
+.contactrow a.fa
+{
+    font-size: 400%;
+}
+
+.email:hover,
+.phone:hover,
+.insta:hover,
+.twitter:hover,
+.linkedin:hover,
+.facebook:hover
+{
+    background-color: rgb(109, 0, 0);
+    color: rgb(235, 210, 210);
+}
+
+.email a:link, a:visited
+{
+    text-decoration: none;
+    color: rgb(109, 0, 0);
+}
+
+.phone a:link, a:visited
+{
+    text-decoration: none;
+    color: rgb(109, 0, 0)
+}
+
+footer
+{
+    margin-top: 7%;
+    background-color: rgb(109, 0, 0);
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+footer a:hover, a.active
+{
+    color: rgb(216, 171, 171);
+}
+
+footer a:link, a:visited
+{
+    color: rgb(235, 210, 210);
+    text-decoration: none;
+}
+
+footer table 
+{
+    margin-left: 10%;
+    width: 90%;
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 110%;
+    color: rgb(235, 210, 210);
+    line-height: 2;
+}
+
+footer th, td 
+{
+    text-align: left;
+    vertical-align: top;
+}
+
+.imageSourcesTitle
+{
+    text-align: center; 
+    font-family: Trebuchet MS, Tahoma, Arial;
+    font-size: 240%; 
+    color: rgb(109, 0, 0);
+    margin-top: 4%
+}
+
+.imageSources
+{
+    font-family: Trebuchet MS, Tahoma, Arial;
+    color: rgb(109, 0, 0);
+    line-height: 3;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+a.fa {
+    font-size: 26px;
+    padding: 10px;
+    text-align: center;
+}
